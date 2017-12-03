@@ -9,5 +9,5 @@ const gatcha = new Gatcha([
 ]);
 
 const r = gatcha.mawasu();
-console.log(r.probability);
+console.log(r.probability); // ===> 0.125
 console.log(r.name); // ==> 'SSSレア', etc
