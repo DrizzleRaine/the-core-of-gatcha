@@ -1,0 +1,21 @@
+{
+  "name": "the-core-of-gatcha",
+  "version": "0.0.1",
+  "description": "Gatcha is a well known forbidden fruit.",
+  "main": "lib.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --require babel-core/register --recursive $(find src -name '*.spec.js')",
+    "demo": "babel-node ./demo.js --require babel-core/register --recursive "
+  },
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
