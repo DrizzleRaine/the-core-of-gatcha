@@ -1,8 +1,8 @@
 # ガチャ〜〜〜〜〜〜ガチャ！ガチャ！！
 
-ガチャは悪い文明！粉砕する！！
+ガチャは悪い文明！粉砕する！！！
 
-## the-core-of-gatcha
+# the-core-of-gatcha
 
 ガチャの「確率と格」を出すところ **だけ** の実装。
 
@@ -22,3 +22,16 @@ const r = gatcha.mawasu();
 console.log(r.probability); // ===> 0.125
 console.log(r.name); // ==> 'USSレア'
 ```
+
+## Demo
+
+```bash
+npm run demo
+```
+
+## How to test
+
+```bash
+npm run test
+```
+
