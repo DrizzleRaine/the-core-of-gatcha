@@ -10,6 +10,7 @@
 import {Gatcha, Dice} from 'the-core-of-gatcha'
 
 const gatcha = new Gatcha([
+  new Dice([0.5,0.5], ['U', '']),
   new Dice([0.5,0.5], ['S', '']),
   new Dice([0.5,0.5], ['S', '']),
   new Dice([0.5,0.5], ['S', '']),
@@ -19,5 +20,5 @@ const gatcha = new Gatcha([
 
 const r = gatcha.mawasu();
 console.log(r.probability); // ===> 0.125
-console.log(r.name); // ==> 'SSSレア'
+console.log(r.name); // ==> 'USSレア'
 ```

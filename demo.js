@@ -1,6 +1,7 @@
 import {Gatcha, Dice} from './main.js'
 
 const gatcha = new Gatcha([
+  new Dice([0.5,0.5], ['U', '']),
   new Dice([0.5,0.5], ['S', '']),
   new Dice([0.5,0.5], ['S', '']),
   new Dice([0.5,0.5], ['S', '']),
